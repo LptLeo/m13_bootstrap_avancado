@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo 13</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>EBAC Bootstrap</h1>
+        <div>
+            <a href="#IDCarousel">Carousel</a>
+            <a href="#container">Grid+Cards</a>
+        </div>
+    </header>
+    <div id="IDCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="2000" class="carousel-item active">
+                <img id="passaro" class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/01/03/19/22/bird-7695209_960_720.jpg">
+                <div class="carousel-caption">
+                    <h2>Imagem 1</h2>
+                </div>
+            </div>
+            <div data-bs-interval="2000" class="carousel-item">
+                <img id="bussola" class="d-block w-100" src="https://cdn.pixabay.com/photo/2022/11/14/20/14/compass-7592447_960_720.jpg">
+                <div class="carousel-caption">
+                    <h2>Imagem 2</h2>
+                </div>
+            </div>
+            <div data-bs-interval="2000" class="carousel-item">
+                <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2022/12/31/15/05/light-bulb-7688818_960_720.jpg">
+                <div class="carousel-caption">
+                    <h2>Imagem 3</h2>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#IDCarousel">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#IDCarousel">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#IDCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#IDCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#IDCarousel" data-bs-slide-to="2"></button>
+        </div>
+    </div>
+    <div id="container" class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <h3 class="coluna-title">Coluna 1</h3>
+                <img class="imagem" src="https://cdn.pixabay.com/photo/2022/07/11/08/44/tower-7314495_960_720.jpg">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2023/01/14/19/50/flower-7718952_960_720.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title">Título do Card</h3>
+                        <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem magni, nobis reiciendis a totam velit saepe maxime earum expedita delectus</div>
+                        <a href="#" class="btn btn-primary">Ler mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <h3 class="coluna-title">Coluna 2</h3>
+                <img class="imagem" src="https://cdn.pixabay.com/photo/2022/12/30/12/39/flowers-7686890_960_720.jpg">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2022/11/14/10/49/mountains-7591326_960_720.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title">Título do Card</h3>
+                        <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem magni, nobis reiciendis a totam velit saepe maxime earum expedita delectus</div>
+                        <a href="#" class="btn btn-primary">Ler mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <h3 class="coluna-title">Coluna 3</h3>
+                <img class="imagem" src="https://cdn.pixabay.com/photo/2023/01/10/00/17/italy-7708552_960_720.jpg">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2023/01/12/15/05/flamingo-7714344_960_720.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title">Título do Card</h3>
+                        <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem magni, nobis reiciendis a totam velit saepe maxime earum expedita delectus</div>
+                        <a href="#" class="btn btn-primary">Ler mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <h3 class="coluna-title">Coluna 1</h3>
+                <img class="imagem" src="https://cdn.pixabay.com/photo/2020/12/23/21/21/macarons-5856039_960_720.jpg">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2023/01/12/07/19/rat-7713508_960_720.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title">Título do Card</h3>
+                        <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem magni, nobis reiciendis a totam velit saepe maxime earum expedita delectus</div>
+                        <a href="#" class="btn btn-primary">Ler mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <h3 class="coluna-title">Coluna 2</h3>
+                <img class="imagem" src="https://cdn.pixabay.com/photo/2022/08/06/06/03/windmill-7367963_960_720.jpg">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2022/10/10/08/28/insect-7511200_960_720.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title">Título do Card</h3>
+                        <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem magni, nobis reiciendis a totam velit saepe maxime earum expedita delectus</div>
+                        <a href="#" class="btn btn-primary">Ler mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <h3 class="coluna-title">Coluna 3</h3>
+                <img class="imagem" src="https://cdn.pixabay.com/photo/2023/01/04/15/01/flower-7696955_960_720.jpg">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2023/01/10/08/48/water-7709322_960_720.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title">Título do Card</h3>
+                        <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem magni, nobis reiciendis a totam velit saepe maxime earum expedita delectus</div>
+                        <a href="#" class="btn btn-primary">Ler mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
